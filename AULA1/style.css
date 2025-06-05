@@ -1,8 +1,19 @@
-body{
+  @import url(assets/estilos/carrosel.css);
+  
+  :root {
+    --cor-de-fundo: #ADDC6C;
+    --cor-de-fundo2:#7b9c4c;
+    --cor-de-borda: #52781D;
+    --cor-de-fundo-hover: #ddd;
+    --branco: White;
+    --preto: black;
+}
+
+.corpo{
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ADDC6C;
+    background-color: var(--cor-de-fundo);
 }
 
 .cabecalho{
@@ -15,9 +26,23 @@ body{
 .cabecalho h3{
     color: rgb(206, 206, 8);
 }
+.cabecalho2 {
+position: sticky top; 
+}
 
-p .alinha{
-    text-align: right;
+.texto{
+     background-color: var(--cor-de-fundo2);
+    border-radius: 6px;
+    margin: 5px;
+    outline: 5px solid var(--cor-de-borda);
+}
+
+.alinha{
+    margin: 5px;
+    text-align: justify;
+}
+.titulo{
+        margin: 5px;
 }
 .img-agro{
     width: 300px;
@@ -41,18 +66,19 @@ p .alinha{
     text-align: center;
     padding: 5px;
 }
-.borda{
-    border: 5px solid #52781D
+.borda {
+    border: 5px solid var(--cor-de-borda);
+    background-color: var(--branco);
 }
-.botão{
+.botao{
     font-weight: 600;
     color: var(--bs-white);
-    background-color: #52781D;
+    background-color: var(--cor-de-borda);
  }
- .botão:hover{
+ .botao:hover{
     font-weight: 600;
-    color: #52781D;
-    background-color: #ADDC6C
+    color: var(--cor-de-borda);
+    background-color: var(--cor-de-fundo)
     ;
  }
  .transição{
@@ -62,3 +88,17 @@ p .alinha{
     color: #2B4606;
 
  }
+
+ .atual{
+    color: black;
+ }
+
+ .carousel-item{ background-color: #fff;}
+
+ .btn-botao {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--cor-de-borda);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)}; }
