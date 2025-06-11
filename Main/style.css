@@ -34,7 +34,10 @@ position: sticky top;
     margin: 5px;
     outline: 5px solid var(--cor-de-borda);
 }
-
+.texto2{
+     background-color: var(--cor-de-fundo);
+    outline: 5px solid var(--cor-de-borda);
+}
 .alinha{
     margin: 5px;
     text-align: justify;
