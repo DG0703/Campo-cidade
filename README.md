@@ -7,10 +7,15 @@ Estrutura:
 
 HTML (HyperText Markup Language): Estrutura principal das páginas. CSS (Cascading Style Sheets): Estilização visual das páginas. Fontes: Arial e sans-serif, com o objeto de trazer melhor clareza a leitura e tornar a aparencia do site mais agradável. Arquivos: index.html: arquivo principal. Como celebrar.html, matéria prima.html, Cultura e costumes.html: paginas secundárias, todas com sues respectivos nomes. style.css: Arquivo principal de estilização. carrosel.css: Arquivo de estilização para a seção carrosel. assets: pasta qeu contém outras três pastas. estilos: pasta contendo o outros arquivos .css. Image: pasta contendo imagens criadas com a ferramenta paint e utilizadas nas páginas. sons: pasta contendo sons usados no site.
 
-Descrição do cabeçalho (index.html):
+Descrição (index.html):
 
 Titulo do projeto, "AGRINHO Festejando Conxão Campo Cidade", que reproduz o arquivo "agrinho.mp3" ao mouse sair dele.
+
 Cabeçalho com links para esta pagina, "Pagina Inicial" as outras página: "Matéria-prima e tecnologia." "Cultura e costumes." "Como celebrar."
+
+Parágrafo sobre porque festejar a conexão Campo-Cidade, com uma imagem ao lado.
+
+Titulo, "Conheça mais sobre cada aspecto da relação campo-cidade?", seguido pornum carrosel com três imagens, uma para cada uma das outras paginas, o titulo destas, um breve resumo sobre o que são e um botão que leva a elas.
 
 
 
