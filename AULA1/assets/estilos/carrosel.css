@@ -1,5 +1,5 @@
 .swiper-slide div{
-background-color: var(--branco);
+background-color: var(--cor-de-fundo2);
 
 }
 .slide-text{
@@ -25,7 +25,6 @@ background-color: var(--branco);
 .borda-slide {
     border: 5px solid var(--cor-de-borda);
     border-radius: 8px;
-    background-color: var(--branco);
 }
 
 .swiper-slide img {
@@ -39,6 +38,9 @@ background-color: var(--branco);
         display:grid;
 align-items: center;
 }
+
+
+ .carousel-item{ background-color: #fff;}
 
 .swiper-button-prev,
 .swiper-button-next {
