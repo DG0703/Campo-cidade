@@ -24,15 +24,21 @@
 .cabecalho h3{
     color: rgb(206, 206, 8);
 }
-.cabecalho2 {
-position: sticky top; 
-}
 
 .texto{
      background-color: var(--cor-de-fundo2);
     border-radius: 6px;
     margin: 5px;
     outline: 5px solid var(--cor-de-borda);
+}
+.texto-main{
+    width:auto;
+    min-height:280px;
+padding-top: 10px}
+
+.espaço{
+padding-top: 15px;
+
 }
 .texto2{
      background-color: var(--cor-de-fundo);
@@ -71,6 +77,7 @@ position: sticky top;
     color: white;
     text-align: center;
     padding: 5px;
+    margin-top: 40px;
 }
 .borda {
     border: 5px solid var(--cor-de-borda);
