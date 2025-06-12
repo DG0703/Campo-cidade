@@ -2,6 +2,10 @@
 background-color: var(--cor-de-fundo2);
 
 }
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+    }
 .slide-text{
     width: 100%;
     font-family: Arial, sans-serif;
